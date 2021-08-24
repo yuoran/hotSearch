@@ -1,6 +1,6 @@
 # -*- codeing =utf-8 -*-
 # @Time :2021/8/23 23:02
-# @Author :张玉洁
+# @Author :***
 # @File :BoKeyuan.py
 # @Software: PyCharm
 import time
@@ -11,7 +11,7 @@ while True:
     time_now = time.strftime("%M:%S",time.localtime())
     if time_now == "30:10":
 
-        conn = pymysql.connect(host='127.0.0.1', user='root', password='zyj191702', port=3306, database='热搜排行榜数据库')
+        conn = pymysql.connect(host='127.0.0.1', user='root', password='*****', port=3306, database='热搜排行榜数据库')
         cursor = conn.cursor()
 
         headers = {
